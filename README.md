@@ -5,10 +5,15 @@ Feel free to open a pull-request if you have an idea or improvement!
 
 To view an example, check out the `examples` branch!
 
-## Usage
+## Getting Started
+After downloading the project, run the following command to set up the project:
 ```
-./bin/bootstrap
-./bin/dev-start
+npm run init
+```
+
+To start the application, run the following command:
+```
+npm start
 ```
 
 ## Important Files
@@ -17,7 +22,6 @@ To view an example, check out the `examples` branch!
 |`app/index.js`|Where the base route exists.|
 |`app/routes.js`|Where routes can be bound to the express app.|
 |`server/server.js`|Where the express server resides.|
-
 
 ## Features
 - Supervisor

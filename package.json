@@ -4,6 +4,8 @@
   "description": "A starter kit designed to spin up an express backend API quickly, including JWT.",
   "main": "server.js",
   "scripts": {
+    "init": "./bin/bootstrap",
+    "start": "./bin/dev-start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Mike Mclaren <mike.mclaren@sq1.com>",
